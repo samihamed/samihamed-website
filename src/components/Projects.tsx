@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import marked from "marked";
 import {
   capoeiraSongBot,
   stockOverflow,
@@ -13,6 +12,8 @@ import notePic from "../assets/gingaStore.png";
 import "../styles/App.css";
 import "../styles/Projects.css";
 import "../styles/Typography.css";
+
+const marked = require('marked');
 
 export default class Projects extends Component {
   mark(text: string) {

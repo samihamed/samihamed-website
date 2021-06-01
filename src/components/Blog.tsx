@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import marked from "marked";
 import { article, article2, article3 } from "../articles/2019-03-30";
 import medium from "../assets/medium.png";
 
 import "../styles/App.css";
 import "../styles/Typography.css";
 import "../styles/Blog.css";
+const marked = require('marked');
 
 export default class Blog extends Component {
   mark(text: string) {
