@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import marked from 'marked'
+const marked = require('marked')
 
 import '../styles/App.css'
 import '../styles/Typography.css'
