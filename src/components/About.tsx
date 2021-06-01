@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-const marked = require('marked')
 
 import '../styles/App.css'
 import '../styles/Typography.css'
 import '../styles/About.css'
+
+const marked = require('marked')
 
 export default class About extends Component {
     mark(text: string) {
