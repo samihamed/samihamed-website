@@ -51,7 +51,7 @@ export default class Podcasts extends Component {
                 <img src={youtube} />
               </a>
             </div>
-            <p>Christian Gleitze, host of The Connecting Dots, and I discuss product development, entrepreneurial spirits and our experience with early-stage startups. Christian has interviewed dozens of founders and leaders in the german startup ecosystem. In this conversation I share details about what sparked my love for digital products and what role product leadership takes in my professional life.</p>
+            <p className="podcasts-summary">Christian Gleitze, host of The Connecting Dots, and I discuss product development, entrepreneurial spirits and our experience with early-stage startups. Christian has interviewed dozens of founders and leaders in the german startup ecosystem. In this conversation I share details about what sparked my love for digital products and what role product leadership takes in my professional life.</p>
           </div>
           <div className="podcasts-episode">
             <div className="podcasts-cover">
@@ -72,7 +72,7 @@ export default class Podcasts extends Component {
                 <img src={spotify} />
               </a>
             </div>
-            <p>How does using the product you develop on a day-to-day basis affect your work and private life? Morgane Oléron and I discuss what it's like living and working with homefully - a german coliving operator based in Frankfurt a. M. In this discussion we learn a lot about the value of Community and how becoming a user of your product can be a valuable aspect of product management.</p>
+            <p className="podcasts-summary">How does using the product you develop on a day-to-day basis affect your work and private life? Morgane Oléron and I discuss what it's like living and working with homefully - a german coliving operator based in Frankfurt a. M. In this discussion we learn a lot about the value of Community and how becoming a user of your product can be a valuable aspect of product management.</p>
           </div>
         </div>
       </div>
