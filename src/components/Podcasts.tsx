@@ -72,7 +72,7 @@ export default class Podcasts extends Component {
                 <img src={spotify} />
               </a>
             </div>
-            <p>How does using the product you develop on a day-to-day basis affect your work and private life. Morgane Oléron and I discuss what it's like living and working with homefully - a german coliving operator based in Frankfurt a. M.</p>
+            <p>How does using the product you develop on a day-to-day basis affect your work and private life? Morgane Oléron and I discuss what it's like living and working with homefully - a german coliving operator based in Frankfurt a. M. In this discussion we learn a lot about the value of Community and how becoming a user of your product can be a valuable aspect of product management.</p>
           </div>
         </div>
       </div>
