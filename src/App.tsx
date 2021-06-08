@@ -5,6 +5,7 @@ import Blog from './components/Blog';
 import Tiles from './components/Tiles';
 import Rainbow from './components/Rainbow';
 import Projects from './components/Projects';
+import Podcasts from './components/Podcasts';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Body />
       <Blog />
       <Rainbow />
+      <Podcasts />
       <Tiles />
       <Projects />
       <Footer />

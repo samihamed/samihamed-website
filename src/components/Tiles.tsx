@@ -41,7 +41,7 @@ export default class Tiles extends Component<Props, State> {
 
         weeks.forEach(week => {
             for (let j = 0; j < amountDays; j++) {
-                const randomWhiteSpot = Math.floor(Math.random() * 7) === 3
+                const randomWhiteSpot = Math.floor(Math.random() * 7) === 2
                 const randomWhiteSpot2 = Math.floor(Math.random() * 7) === 3
                 const isActive = (j !== 0 && j !== 6) || randomWhiteSpot2
                 week.push({
